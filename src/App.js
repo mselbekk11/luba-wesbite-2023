@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Navigation from './components/Navigation'
+import Hero from './components/Hero'
+import About from './components/About'
+import Thoughts from './components/Thoughts'
+import Videos from './components/Videos'
+import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
+import Fade from 'react-reveal/Fade'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Fade top distance='0%' duration={1500}>
+        <Navigation />
+        <Hero />
+        <About />
+        <Thoughts />
+        <Videos />
+        <Newsletter />
+        <Footer />
+      </Fade>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
