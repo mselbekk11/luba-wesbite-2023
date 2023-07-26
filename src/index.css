@@ -163,6 +163,10 @@ p {
   border-top: solid 3px #000;
 }
 
+.line-item a {
+  text-decoration: none;
+}
+
 .line-item.last {
   border-bottom: solid 3px #000;
 }
@@ -386,6 +390,10 @@ input {
     padding: 0rem 1rem;
   }
 
+  h2 {
+    font-size: 1.7rem;
+  }
+
   .navigation {
     padding: 1rem 0rem;
 }
@@ -409,6 +417,14 @@ h3 {
 
 p {
   font-size: 0.8rem;
+}
+
+.left {
+  align-items: center;
+}
+
+.heroo h3 {
+  width: 267px;
 }
 
 .heroo {
