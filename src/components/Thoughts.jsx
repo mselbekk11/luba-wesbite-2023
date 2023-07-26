@@ -19,29 +19,41 @@ function Thoughts() {
       <div className="title" id='boom'>
         <p>Supporting and empowering women in tech sales</p>
       </div>
+
+      <a href="https://wearetechwomen.com/supporting-and-empowering-women-in-tech-sales/" target="_blank" rel="noreferrer" >
+
       <div className="read">
         <p className='beem'>Read</p>
         <FontAwesomeIcon className="iconn" icon={faArrowRight} style={{color: "#7FCAC4",}} />
-        {/* <FontAwesomeIcon className="iconn" icon={faArrowRight} style={{color: "#7fcac4",}} /> */}
       </div>
+
+        </a>
+
       </div>
       <div className="line-item">
       <div className="title">
         <p>The Power of Women in Tech Sales</p>
       </div>
+        <a href="https://www.samsara.com/uk/blog/3-takeaways-from-samsaras-women-in-sales/" target="_blank" rel="noreferrer" >
+
       <div className="read">
-        <p className='beem'>Read</p>
+          <p className='beem'>Read</p>
         <FontAwesomeIcon className="iconn" icon={faArrowRight} style={{color: "#7FCAC4",}} />
       </div>
+        
+        </a>
       </div>
       <div className="line-item last">
       <div className="title">
         <p>Supporting and empowering women in tech sales</p>
       </div>
+      
+      <a href="https://wearetechwomen.com/supporting-and-empowering-women-in-tech-sales/" target="_blank" rel="noreferrer" >
       <div className="read">
         <p className='beem'>Read</p>
         <FontAwesomeIcon className="iconn" icon={faArrowRight} style={{color: "#7FCAC4",}} />
-      </div>
+        
+      </div></a>
       </div>
     </div>
   )

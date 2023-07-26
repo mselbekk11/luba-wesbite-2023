@@ -282,12 +282,51 @@ input {
 
 .footerr{
   width: 100%;
-  margin: 0rem 0rem 6rem;
+  margin: 0rem 0rem 0rem;
   text-align: center;
 }
 
 .footerr img {
   display: initial;
+  margin-bottom: 6rem;
+}
+
+
+
+
+.footerr svg {
+  fill: #000;
+  opacity: 0.3;
+}
+
+.footerr svg:hover {
+ opacity: 1;
+ transition: 0.5s;
+}
+
+.footerr .bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 900;
+  color: #A8A8A8;
+  margin-bottom: 3rem;
+}
+
+.footerr .bar p {
+  color: #A8A8A8;
+  font-size: 1rem;
+}
+
+.footerr .bar-two {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 24px;
+  justify-content: center;
 }
 
 
@@ -386,7 +425,11 @@ p {
 }
 
 .footerr {
-  margin: 0 0 4rem;
+  margin: 0 0 0rem;
+}
+
+.footerr .bar {
+  margin-bottom: 1rem;
 }
 
 .box {
