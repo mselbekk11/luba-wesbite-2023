@@ -1,4 +1,3 @@
-import LubaHero from '../assets/luba-slider.png'
 
 function Hero() {
   return (
@@ -8,7 +7,7 @@ function Hero() {
         <h3>Sales Director, Europe</h3>
       </div>
       <div className="right">
-      <img src={LubaHero} alt="" />  
+      <img src="https://res.cloudinary.com/mselbekk-com/image/upload/v1690366194/luba-slider_wzzyfi.png" alt="Luba Speaking on stage" />  
       </div>
     </div>
   )

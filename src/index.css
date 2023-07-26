@@ -140,7 +140,7 @@ p {
 
 .thoughts{
   margin-bottom: 6rem;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .thoughts h2 {
@@ -165,6 +165,10 @@ p {
 
 .line-item.last {
   border-bottom: solid 3px #000;
+}
+
+.thoughts .title {
+  margin-right: 2rem;
 }
 
 .read {
@@ -329,5 +333,54 @@ input {
 "react-reveal": "^1.2.2",
 
 */
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    padding: 0rem 1rem;
+  }
+
+  .navigation {
+    padding: 1rem 0rem;
+}
+
+  .navigation img {
+  width: 40px;
+}
+
+.navigation button {
+  padding: 0.8rem 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  width: 300px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.heroo {
+  margin-bottom: 4rem;
+}
+
+.about {
+  margin-bottom: 4rem;
+}
+
+.thoughts {
+  margin-bottom: 4rem;
+}
+
+.box {
+  padding: 2rem;
+}
+
+}
 
 
