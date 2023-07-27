@@ -45,10 +45,10 @@ function Thoughts() {
       </div>
       <div className="line-item last">
       <div className="title">
-        <p>Supporting and empowering women in tech sales</p>
+        <p>Breaking the male bias in tech</p>
       </div>
       
-      <a href="https://wearetechwomen.com/supporting-and-empowering-women-in-tech-sales/" target="_blank" rel="noreferrer" >
+      <a href="https://rss.com/podcasts/jobsforwomen/847482/" target="_blank" rel="noreferrer" >
       <div className="read">
         <p className='beem'>Read</p>
         <FontAwesomeIcon className="iconn" icon={faArrowRight} style={{color: "#7FCAC4",}} />
