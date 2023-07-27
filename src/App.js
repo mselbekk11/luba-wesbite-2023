@@ -2,7 +2,7 @@ import Navigation from './components/Navigation'
 import Hero from './components/Hero'
 import About from './components/About'
 import Thoughts from './components/Thoughts'
-import Videos from './components/Videos'
+// import Videos from './components/Videos'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
 
@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <About />
       <Thoughts />
-      <Videos />
+      {/* <Videos /> */}
       <Newsletter />
       <Footer />
     </div>
