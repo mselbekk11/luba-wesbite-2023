@@ -1,5 +1,5 @@
 import Morgan from '../assets/MS.png'
-import morganMobile from '../assets/morgan-mobile-1.png'
+import morganMobile from '../assets/boom.png'
 
 function Hero() {
   return (
