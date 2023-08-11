@@ -134,6 +134,13 @@ font-size: 1.5rem;
 
   .navigation {
     padding: 2rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.navigation p {
+  margin-bottom: 1rem;
 }
 
   .heroo {
