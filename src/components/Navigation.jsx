@@ -1,10 +1,11 @@
-import svg from '../assets/Logo.svg'
+// import svg from '../assets/Logo.svg'
 
 function Navigation() {
   return (
     <div className="navigation">
-      <img src={svg} alt='Logo' />
-      <a href='mailto:luba.ismakov@samsara.com' target='blank'><button>Contact me</button></a>
+      {/* <img src={svg} alt='Logo' /> */}
+      <p>MORGAN <span>SELBEKK</span></p>
+      <a href='https://www.mselbekk.com' target='blank'><button>Visit Portfolio</button></a>
     </div>
   )
 }
